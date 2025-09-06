@@ -57,13 +57,6 @@ Copy the the settings.js.example to settings.js and update it with your AirDC AP
 
 For Windows users, you also need to update the path configuration in `index.js`:
 
-```javascript
-// Windows example configuration:
-const searchPath = 'C:\\Users\\YourUsername\\Shares\\Movies' // Your share directory
-const searchRegex = /C:\\Users\\YourUsername/;   // Pattern to replace
-const replaceString = "D:\\NewLocation"  // New location for files
-```
-
 **Important Windows notes:**
 - Use double backslashes (`\\`) in strings, or single backslashes in regex
 - Make sure the search regex matches your actual path structure
