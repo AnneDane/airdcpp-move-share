@@ -7,6 +7,12 @@
   "author": {
     "name": "pepsi"
   },
+  "contributors": [
+    {
+      "name": "xAI-Grok",
+      "role": "AI Assistant - Code modifications and Windows compatibility fixes"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/peps1/airdcpp-move-share/issues"
   },
